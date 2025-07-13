@@ -1,7 +1,7 @@
 # 💳 Fraud Detection System in Java
 
 ## 📌 Overview
-A simple simulation to detect suspicious transactions by checking if a user makes **multiple transactions within a short time (60 seconds)**. It mimics real-time fraud detection used in FinTech applications.
+A simple simulation to detect suspicious transactions by checking if a user makes **multiple transactions within a short time (5 seconds)**. It mimics real-time fraud detection used in FinTech applications.
 
 ## 🚀 Features
 - Tracks user transactions using timestamps
