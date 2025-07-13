@@ -17,6 +17,14 @@ A simple simulation to detect suspicious transactions by checking if a user make
 - Java
 - Core DSA (No frameworks)
 
+## 🚀 How to Compile and Run
+
+This project uses **Java (JDK 8+)** and connects to **MySQL** using **JDBC**.  
+Make sure you have:
+- Java installed (`java -version`)
+- MySQL installed and running
+- JDBC connector (`mysql-connector-j-9.3.0.jar`) downloaded
+
 ## 📂 Folder Structure
 FraudDetectionSystem/
 ├── Main.java
