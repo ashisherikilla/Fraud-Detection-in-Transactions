@@ -13,10 +13,8 @@ This project mimics what startups and MNCs might implement to identify multiple 
 ## 📁 Folder Structure
 
 FraudDetectionSystem/
-├── SQL_Version/
-│ └── Main.java
-├── DSA_Version/
-│ └── Main.java
+├── SQL_Version/Main.java
+├── DSA_Version/Main.java 
 ├── mysql-connector-j-9.3.0.jar
 ├── README.md
 
