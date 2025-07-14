@@ -27,13 +27,13 @@ FraudDetectionSystem/
 #### 🛠️ Requirements:
 - Java JDK 8+
 - MySQL installed and running
-- `mysql-connector-java-8.0.xx.jar` downloaded and placed in the project folder
+- `mysql-connector-j-9.3.0.jar` downloaded and placed in the project folder
 
 #### ⚙️ Compile:
 
 **Windows CMD:**
 ```bash
-javac -cp .;mysql-connector-java-8.0.xx.jar SQL_Version/Main.java
+javac -cp .;mysql-connector-j-9.3.0.jar SQL_Version/Main.java
 ```
 
 # 🧰 Tech Stack Overview
@@ -45,7 +45,7 @@ This project is built using Java and integrates MySQL for backend storage, focus
 - **Data Structures & Algorithms:** HashMap, ArrayList, Sliding Window
 - **Time Logic:** `System.currentTimeMillis()`
 - **Database:** MySQL 5.7 / 8.0 (SQL version only)
-- **Connectivity:** JDBC with `mysql-connector-java-8.0.xx.jar`
+- **Connectivity:** JDBC with `mysql-connector-java-9.3.0.jar`
 - **Query Language:** SQL (`CREATE`, `INSERT`, `SELECT`)
 - **Terminal:** CMD / PowerShell / Bash
 - **Input Handling:** Java `Scanner` class
