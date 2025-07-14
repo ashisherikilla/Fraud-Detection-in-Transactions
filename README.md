@@ -1,31 +1,59 @@
-# 💳 Fraud Detection System in Java
+# 💳 Fraud Detection in Transactions — Java (SQL + DSA Based)
 
-## 📌 Overview
-A simple simulation to detect suspicious transactions by checking if a user makes **multiple transactions within a short time (5 seconds)**. It mimics real-time fraud detection used in FinTech applications.
+A powerful and beginner-friendly AI-free backend system built with **Java**, showcasing **DSA, SQL, and real-time logic** to detect fraudulent transactions.
 
-## 🚀 Features
-- Tracks user transactions using timestamps
-- Applies sliding window logic to remove old data
-- Flags and prints potential fraud alerts
+This project mimics what startups and MNCs might implement to identify multiple rapid transactions from the same user — a possible fraud signal.
 
-## 🧠 DSA Concepts Used
-- `HashMap`: Maps users to their transaction history
-- `ArrayList`: Stores timestamps for each user
-- `Sliding Window`: Discards old timestamps to focus on recent ones
+🚀 **Two versions included:**
+- 🔹 **SQL Version:** Stores transactions in MySQL, detects fraud in real-time
+- 🔹 **DSA-Only Version:** Uses HashMap + ArrayList + time logic without any database
 
-## 🛠️ Tech Stack
-- Java
-- Core DSA (No frameworks)
+---
 
-## 🚀 How to Compile and Run
+## 📁 Folder Structure
 
-This project uses **Java (JDK 8+)** and connects to **MySQL** using **JDBC**.  
-Make sure you have:
-- Java installed (`java -version`)
-- MySQL installed and running
-- JDBC connector (`mysql-connector-j-9.3.0.jar`) downloaded
-
-## 📂 Folder Structure
 FraudDetectionSystem/
-├── Main.java
-└── README.md
+├── SQL_Version/
+│ └── Main.java
+├── DSA_Version/
+│ └── Main.java
+├── mysql-connector-j-9.3.0.jar
+├── README.md
+
+---
+
+## 🔧 How to Compile & Run
+
+### 🟦 Version 1: SQL + JDBC Based
+
+#### 🛠️ Requirements:
+- Java JDK 8+
+- MySQL installed and running
+- `mysql-connector-java-8.0.xx.jar` downloaded and placed in the project folder
+
+#### ⚙️ Compile:
+
+**Windows CMD:**
+```bash
+javac -cp .;mysql-connector-java-8.0.xx.jar SQL_Version/Main.java
+```
+
+# 🧰 Tech Stack Overview
+This project is built using Java and integrates MySQL for backend storage, focusing on efficient data handling and security.
+
+# 🚀 Tech Stack Used
+
+- **Language:** Java 8+
+- **Data Structures & Algorithms:** HashMap, ArrayList, Sliding Window
+- **Time Logic:** `System.currentTimeMillis()`
+- **Database:** MySQL 5.7 / 8.0 (SQL version only)
+- **Connectivity:** JDBC with `mysql-connector-java-8.0.xx.jar`
+- **Query Language:** SQL (`CREATE`, `INSERT`, `SELECT`)
+- **Terminal:** CMD / PowerShell / Bash
+- **Input Handling:** Java `Scanner` class
+- **Security:** Prepared Statements (to prevent SQL Injection)
+- **Programming Paradigm:** Procedural + Data Structure-Oriented
+
+---
+
+> Designed for efficiency, simplicity, and secure backend communication.
